@@ -4,7 +4,7 @@
 mod.web_layout.BackendLayouts {
   aistea {
     title = Aistea
-    icon = EXT:aisteaportfolio/Resources/Public/Images/BackendLayouts/default.gif
+    icon = EXT:aisteaportfolio/Resources/Public/Images/BackendLayouts/default.png
     config {
       backend_layout {
         colCount = 1
