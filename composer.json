@@ -1,0 +1,23 @@
+{
+    "name": "medartis-ag/aisteaportfolio",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "https://www.medartis.com",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^11.5",
+        "typo3/cms-rte-ckeditor": "^11.5",
+        "typo3/cms-fluid-styled-content": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MedartisAg\\Aisteaportfolio\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "aisteaportfolio"
+        }
+    }
+}
