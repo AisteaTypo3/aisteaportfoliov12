@@ -1,0 +1,41 @@
+#
+# BACKENDLAYOUT: Aistea
+#
+mod.web_layout.BackendLayouts {
+  aistea {
+    title = Aistea
+    icon = EXT:aisteaportfolio/Resources/Public/Images/BackendLayouts/default.gif
+    config {
+      backend_layout {
+        colCount = 1
+        rowCount = 3
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Header-Bereich
+                colPos = 1
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = Content-Bereich
+                colPos = 2
+              }
+            }
+          }
+          3 {
+            columns {
+              1 {
+                name = Footer-Bereich
+                colPos = 3
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
