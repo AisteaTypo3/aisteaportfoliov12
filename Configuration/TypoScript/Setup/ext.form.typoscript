@@ -1,2 +1,0 @@
-plugin.tx_form.settings.yamlConfigurations.100 = EXT:aisteaportfolio/Configuration/Form/MyFormSetup.yaml
-module.tx_form.settings.yamlConfigurations.100 = EXT:aisteaportfolio/Configuration/Form/MyFormSetup.yaml
