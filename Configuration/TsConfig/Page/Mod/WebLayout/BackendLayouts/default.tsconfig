@@ -1,7 +1,7 @@
 mod.web_layout.BackendLayouts {
   aisteaportfolio {
     title = Default
-    icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
+    icon = EXT:aisteaportfolio/Resources/Public/Images/BackendLayouts/default.gif
     config {
       backend_layout {
         colCount = 1
