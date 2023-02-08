@@ -1,0 +1,91 @@
+TCEFORM {
+    tt_content {
+        header_layout {
+            altLabels {
+                1 = h1 - Seitenüberschrift
+                2 = h2 - Themenüberschrift
+                3 = h3 - Überschrift 3. Ordnung
+                4 = h4 - Überschrift 4. Ordnung
+                5 = h5 - Überschrift 5. Ordnung
+            }
+            removeItems = 5
+        }
+        frame_class {
+            addItems {
+                box-33 = Box 33%
+                box-20 = Box 20%
+                box-25 = Box 25%
+                service-box-33 = Service Box 33%
+                box-product-webgl = Produkt Listing WebGL
+            }
+        }
+        table_class {
+            addItems {
+                alt = Alternativ
+            }
+            removeItems = striped,bordered
+        }
+        ## Workaround für responsive Videos in Verbindung mit fluid_styled_content default CSS
+        layout {
+            addItems {
+                10 = Responsive Video
+                100 = Subpage Menu Products
+                200 = Downloadcenter Documents Filter
+                201 = Downloadcenter Video Filter
+                202 = Downloadcenter ifu Filter
+                203 = Downloadcenter certificate Filter
+                204 = Downloadcenter Subpage
+                300 = Content Video 16/9
+                301 = Content Video 8/5
+            }
+        }
+    }
+}
+
+## RTE Konfiguration
+RTE.default.preset = aistea_presets
+#RTE.default.preset = default
+#RTE.config.tt_content.bodytext.types.textmedia.preset = full
+#RTE.config.tt_content.bodytext.types.text.preset = minimal
+
+## Rechte für neue Seiten
+TCEMAIN.permissions {
+    group = show,editcontent,edit,new,delete
+    groupid = 1
+}
+
+## news Layouts ##
+tx_news.templateLayouts {
+    1 = 33% News List Layout
+    2 = 100% News List Layout
+
+}
+
+mod.tx_bwfocuspointimages.settings.fields {
+
+    name {
+        title = LLL:EXT:bw_focuspoint_images/Resources/Private/Language/locallang_db.xlf:wizard.fields.name
+        type = text
+    }
+
+    description {
+        title = LLL:EXT:bw_focuspoint_images/Resources/Private/Language/locallang_db.xlf:wizard.fields.description
+        type = textarea
+    }
+
+    color {
+        title = LLL:EXT:bw_focuspoint_images/Resources/Private/Language/locallang_db.xlf:wizard.fields.color
+        type = select
+        options {
+            red = LLL:EXT:bw_focuspoint_images/Resources/Private/Language/locallang_db.xlf:wizard.fields.color.red
+            green = LLL:EXT:bw_focuspoint_images/Resources/Private/Language/locallang_db.xlf:wizard.fields.color.green
+            blue = LLL:EXT:bw_focuspoint_images/Resources/Private/Language/locallang_db.xlf:wizard.fields.color.blue
+        }
+    }
+
+    link {
+       title = LLL:EXT:bw_focuspoint_images/Resources/Private/Language/locallang_db.xlf:wizard.fields.link
+       type = link
+    }
+
+}

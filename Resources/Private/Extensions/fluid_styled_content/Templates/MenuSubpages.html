@@ -1,0 +1,53 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<f:layout name="Default" />
+<f:section name="Main">
+
+    <f:if condition="{data.layout} == 100">
+        <f:then>
+            <f:if condition="{menu}">
+                <div class="product-list">
+                    <f:for each="{menu}" as="page">
+                        <div class="product">
+                            <a href="{page.link}"{f:if(condition: page.target, then: ' target="{page.target}"')} title="{page.title}">
+                            <div class="product-description">
+
+                                <header><h4><f:format.html>{page.title}</f:format.html></h4></header>
+                                <p><f:format.html>{page.data.abstract}</f:format.html></p>
+
+                                <span class="button primary"><f:translate key="productMore" extensionName="aisteaportfolio"/></span>
+
+                                <div class="image">
+                                    <f:if condition="{page.files}">
+                                        <f:then>
+                                            <f:for each="{page.files}" as="image">
+                                                <f:image src="fileadmin/{image.originalFile.properties.identifier}" alt="{page.title}" title="" />
+                                            </f:for>
+                                        </f:then>
+                                    </f:if>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </f:for>
+                </div>
+            </f:if>
+        </f:then>
+        <f:else>
+            <f:if condition="{menu}">
+                <ul>
+                    <f:for each="{menu}" as="page">
+                        <li>
+                            <a href="{page.link}"{f:if(condition: page.target, then: ' target="{page.target}"')} title="{page.title}">
+                            <span><f:format.raw>{page.title}</f:format.raw></span>
+                            </a>
+                        </li>
+                    </f:for>
+                </ul>
+            </f:if>
+        </f:else>
+
+    </f:if>
+
+</f:section>
+</html>

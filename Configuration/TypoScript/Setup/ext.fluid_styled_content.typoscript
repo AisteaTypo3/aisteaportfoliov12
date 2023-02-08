@@ -1,0 +1,22 @@
+lib.contentElement {
+    partialRootPath >
+    partialRootPaths {
+      0 = EXT:fluid_styled_content/Resources/Private/Partials/
+      10 = {$styles.templates.partialRootPath}
+      99 = EXT:aisteaportfolio/Resources/Private/Extensions/fluid_styled_content/Partials/
+    }
+
+    templateRootPaths >
+    templateRootPaths {
+        0 = EXT:fluid_styled_content/Resources/Private/Templates/
+        10 = {$styles.templates.templateRootPath}
+        99 = EXT:aisteaportfolio/Resources/Private/Extensions/fluid_styled_content/Templates/
+    }
+
+    layoutRootPath >
+    layoutRootPaths {
+        0 = EXT:fluid_styled_content/Resources/Private/Layouts/
+        10 = {$styles.templates.layoutRootPath}
+        99 = EXT:aisteaportfolio/Resources/Private/Extensions/fluid_styled_content/Layouts/
+    }
+}

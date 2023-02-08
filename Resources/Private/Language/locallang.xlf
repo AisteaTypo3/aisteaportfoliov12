@@ -1,11 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<xliff version="1.0">
-    <file source-language="en" datatype="plaintext" original="messages" date="2023-02-08UTC14:22:430">
-        <header>
-            <authorName>Yannick Aister</authorName>
-            <authorEmail>yannick.aister@aistee.de</authorEmail>
-        </header>
-        <body>
-        </body>
-    </file>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:fluid_styled_content/Resources/Private/Language/locallang.xlf" date="2014-02-07T20:22:32Z" product-name="aisteaportfolio">
+		<header/>
+		<body>
+			<trans-unit id="toTop" resname="toTop">
+				<source>To top</source>
+			</trans-unit>
+            <trans-unit id="productMore" resname="productMore">
+                <source>More</source>
+            </trans-unit>
+            <trans-unit id="download" resname="download">
+                <source>Downloadcenter</source>
+            </trans-unit>
+            <trans-unit id="results" resname="results">
+                <source>Results</source>
+            </trans-unit>
+            <trans-unit id="showMore" resname="showMore">
+                <source>Show more</source>
+            </trans-unit>
+             <trans-unit id="showLess" resname="showLess">
+                <source>Show less</source>
+            </trans-unit>
+             <trans-unit id="surgicaltechnique" resname="surgicaltechnique">
+                <source>Surgical Technique</source>
+            </trans-unit>
+             <trans-unit id="overview" resname="overview">
+                <source>Overview</source>
+            </trans-unit>
+		</body>
+	</file>
 </xliff>

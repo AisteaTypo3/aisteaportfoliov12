@@ -1,18 +1,6 @@
 <?php
-defined('TYPO3') or die('Access denied.');
-call_user_func(function()
-{
-    /**
-     * Temporary variables
-     */
-    $extensionKey = 'aisteaportfolio';
-
-    /**
-     * Default PageTS for Aisteaportfolio
-     */
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
-        $extensionKey,
-        'Configuration/TsConfig/Page/All.tsconfig',
-        'aisteaportfolio'
-    );
-});
+if (!defined('TYPO3_MODE')) {
+    die('Access denied.');
+}
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile('aisteaportfolio','Configuration/TSconfig/BackendLayouts.tsconfig','Default Backendlayouts');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile('aisteaportfolio','Configuration/TSconfig/Page_general.tsconfig','Default PageTSconfig');

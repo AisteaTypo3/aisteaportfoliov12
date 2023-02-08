@@ -1,56 +1,29 @@
-######################
-#### DEPENDENCIES ####
-######################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:aisteaportfolio/Configuration/TypoScript/Constants" extensions="txt,typoscript">
 
+aisteaportfolio {
+    # cat = aisteaportfolio/links; type = int+; label = RootPage ID:ID der Startseite der Website
+    rootPageId = 1
 
-##############################
-#### FLUID STYLED CONTENT ####
-##############################
-styles {
-    templates {
-        layoutRootPath = EXT:aisteaportfolio/Resources/Private/Layouts/ContentElements/
-        partialRootPath = EXT:aisteaportfolio/Resources/Private/Partials/ContentElements/
-        templateRootPath = EXT:aisteaportfolio/Resources/Private/Templates/ContentElements/
-    }
+    # cat = aisteaportfolio/logoheader; type = string; label = Logo-Text für den Kopfbereich:Sofern kein Logo verwendet wird, wird dieser Text an Stelle des Logos angezeigt. Falls ein Logo verwendet wird, wird der Text für das alt- und das title-Attribut verwendet.
+    logoText = medartis AG
+
+    # cat = aisteaportfolio/logoheader; type = string; label = Logo-Datei:Pfad zu einer Logo Datei, z.B. fileadmin/logo.png oder EXT:my_sitepackage/Resources/Public/Images/logo.png
+    #logoFile = EXT:aisteaportfolio/Resources/Public/Images/logo.png
+    logoFile = fileadmin/user_upload/logo/logo.png
+
+    # cat = aisteaportfolio/links; type = int+; label = Search plugin ID:ID des Plugins der indexed_search
+    searchPluginId = 13
+
+    # cat = aisteaportfolio/links; type = int+; label = Search Page ID:ID der Seite mit den Suchergebnissen
+    searchTargetPid = 20
+
+    # cat = aisteaportfolio/links; type = int+; label = Search Root ID:ID der Ausgangsseite für die indexed_search
+    searchRootPidList = 1
+
+    # cat = aisteaportfolio/socialmedia; type = string; label = Instagram:dein Benutzername bei Instagram
+    socialmedia.instagram = yannickaister
+
+    # cat = aisteaportfolio/socialmedia; type = string; label = Github:dein Benutzername bei Github
+    socialmedia.github = AisteaTypo3
 }
 
-
-############
-### PAGE ###
-############
-page {
-     fluidtemplate {
-        layoutRootPath = EXT:aisteaportfolio/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:aisteaportfolio/Resources/Private/Partials/Page/
-        templateRootPath = EXT:aisteaportfolio/Resources/Private/Templates/Page/
-    }
-    meta {
-        description =
-        author =
-        keywords =
-        viewport = width=device-width, initial-scale=1
-        robots = index,follow
-        apple-mobile-web-app-capable = no
-        compatible = IE=edge
-    }
-    tracking {
-        google {
-            trackingID =
-            anonymizeIp = 1
-        }
-    }
-}
-
-
-##############
-### CONFIG ###
-##############
-config {
-    no_cache = 0
-    removeDefaultJS = 0
-    admPanel = 1
-    prefixLocalAnchors = all
-    headerComment = build by sitepackagebuilder.com
-    sendCacheHeaders = 1
-}

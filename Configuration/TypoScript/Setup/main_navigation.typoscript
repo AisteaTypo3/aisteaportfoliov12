@@ -1,0 +1,32 @@
+lib.MAINMENU = HMENU
+lib.MAINMENU {
+    entryLevel = 0
+    1 = TMENU
+    1 {
+        expAll = 1
+        wrap = <nav><ul class="main-navigation level1">|</ul></nav>
+
+        noBlur = 1
+        NO = 1
+        NO {
+            ATagTitle.field = title
+            wrapItemAndSub = <li>|</li>  
+        }
+        ACT < .NO
+        ACT {
+            wrapItemAndSub = <li class="active">|</li>
+        }
+    }
+    2 < .1
+    2.wrap = <ul class="level2">|</ul>
+    3 < .2
+    3.wrap = <ul class="level3">|</ul>
+    4 < .3
+    4.wrap = <ul class="level4">|</ul>
+    5 < .4
+    5.wrap = <ul class="level5">|</ul>
+    6 < .5
+    6.wrap = <ul class="level6">|</ul>
+    7 < .6
+    7.wrap = <ul class="level7">|</ul>
+}

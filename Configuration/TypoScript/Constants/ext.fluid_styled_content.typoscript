@@ -1,0 +1,5 @@
+styles.content.textmedia.maxW = 1600
+styles.content.textmedia.maxWInText = 800
+styles.content.textmedia.linkWrap.lightboxEnabled = 1
+styles.content.textmedia.linkWrap.width = 1400m
+styles.content.textmedia.linkWrap.height = 1400m

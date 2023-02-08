@@ -1,0 +1,2041 @@
+{
+    "version": "7.2.0",
+    "tables": {
+        "tt_content": {
+            "elements": {
+                "ad_hocnews": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "tx_mask_adhoc_file"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        ""
+                    ],
+                    "icon": "fa-file-text",
+                    "iconOverlay": "fa-file-text",
+                    "key": "ad_hocnews",
+                    "label": "Ad hoc-News",
+                    "labels": [
+                        "Adhoc News"
+                    ],
+                    "shortLabel": "",
+                    "sorting": 1
+                },
+                "gallery": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "tx_mask_title",
+                        "tx_mask_gallery_list"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "Only Backend Title",
+                        ""
+                    ],
+                    "icon": "fa-image",
+                    "iconOverlay": "fa-image",
+                    "key": "gallery",
+                    "label": "Gallery",
+                    "labels": [
+                        "Backend Title",
+                        "Gallery List"
+                    ],
+                    "shortLabel": "",
+                    "sorting": 0
+                },
+                "info_boxen": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "tx_mask_bg_image",
+                        "tx_mask_info_boxen"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-inbox",
+                    "iconOverlay": "fa-inbox",
+                    "key": "info_boxen",
+                    "label": "Info Boxen",
+                    "labels": [
+                        "Background Image",
+                        "Info Boxen"
+                    ],
+                    "shortLabel": "",
+                    "sorting": 3
+                },
+                "key_products": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "tx_mask_product_tabs"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        ""
+                    ],
+                    "icon": "",
+                    "iconOverlay": "",
+                    "key": "key_products",
+                    "label": "Key Products",
+                    "labels": [
+                        "Product Tabs"
+                    ],
+                    "shortLabel": "",
+                    "sorting": 2
+                },
+                "key_products_without_tabbing": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "tx_mask_key_product_2"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        ""
+                    ],
+                    "icon": "",
+                    "iconOverlay": "",
+                    "key": "key_products_without_tabbing",
+                    "label": "Key Products without Tabbing",
+                    "labels": [
+                        "Key Products"
+                    ],
+                    "shortLabel": "",
+                    "sorting": 4
+                },
+                "key_publications": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "tx_mask_publications"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        ""
+                    ],
+                    "icon": "",
+                    "iconOverlay": "",
+                    "key": "key_publications",
+                    "label": "Key Publications",
+                    "labels": [
+                        "Key Publications"
+                    ],
+                    "shortLabel": "",
+                    "sorting": 0
+                },
+                "portfolio_overview": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "tx_mask_portfolio_headline",
+                        "tx_mask_portfolio_image",
+                        "tx_mask_portfolio_tabs",
+                        "tx_mask_portfolio_search_title"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "Designed for full body skeleton",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-user-md",
+                    "iconOverlay": "fa-user-md",
+                    "key": "portfolio_overview",
+                    "label": "Portfolio Overview",
+                    "labels": [
+                        "Portfolio Headline",
+                        "Portfolio Full Height Image",
+                        "Portfolio Tabs",
+                        "Search Field Title"
+                    ],
+                    "shortLabel": "",
+                    "sorting": 5
+                },
+                "svg_worldmap_": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "tx_mask_worldmap_image",
+                        "tx_mask_worldmap_countries"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "Only SVG",
+                        ""
+                    ],
+                    "icon": "fa-map-marker",
+                    "iconOverlay": "fa-map-marker",
+                    "key": "svg_worldmap_",
+                    "label": "SVG Worldmap ",
+                    "labels": [
+                        "SVG Worldmap",
+                        "Subsideries"
+                    ],
+                    "shortLabel": "",
+                    "sorting": 0
+                },
+                "systemtabs": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "tx_mask_buttons_instead",
+                        "tx_mask_tabs"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "Buttons anstatt Registerkarten",
+                        ""
+                    ],
+                    "icon": "",
+                    "iconOverlay": "",
+                    "key": "systemtabs",
+                    "label": "SystemTabs",
+                    "labels": [
+                        "Erscheinungsbild",
+                        "Tabs"
+                    ],
+                    "shortLabel": "",
+                    "sorting": 0
+                }
+            },
+            "sql": {
+                "tx_mask_adhoc_file": {
+                    "tt_content": {
+                        "tx_mask_adhoc_file": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_bg_image": {
+                    "tt_content": {
+                        "tx_mask_bg_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_buttons_instead": {
+                    "tt_content": {
+                        "tx_mask_buttons_instead": "int(11) DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_gallery_list": {
+                    "tt_content": {
+                        "tx_mask_gallery_list": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                },
+                "tx_mask_info_boxen": {
+                    "tt_content": {
+                        "tx_mask_info_boxen": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_2": {
+                    "tt_content": {
+                        "tx_mask_key_product_2": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_portfolio_headline": {
+                    "tt_content": {
+                        "tx_mask_portfolio_headline": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_portfolio_image": {
+                    "tt_content": {
+                        "tx_mask_portfolio_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_portfolio_search_title": {
+                    "tt_content": {
+                        "tx_mask_portfolio_search_title": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                },
+                "tx_mask_portfolio_tabs": {
+                    "tt_content": {
+                        "tx_mask_portfolio_tabs": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_product_tabs": {
+                    "tt_content": {
+                        "tx_mask_product_tabs": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_publications": {
+                    "tt_content": {
+                        "tx_mask_publications": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_tabs": {
+                    "tt_content": {
+                        "tx_mask_tabs": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_title": {
+                    "tt_content": {
+                        "tx_mask_title": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                },
+                "tx_mask_worldmap_countries": {
+                    "tt_content": {
+                        "tx_mask_worldmap_countries": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_worldmap_image": {
+                    "tt_content": {
+                        "tx_mask_worldmap_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_adhoc_file": {
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_adhoc_file",
+                    "key": "adhoc_file",
+                    "type": "inline"
+                },
+                "tx_mask_bg_image": {
+                    "cTypes": [
+                        "image"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_bg_image",
+                    "key": "bg_image",
+                    "type": "content"
+                },
+                "tx_mask_buttons_instead": {
+                    "config": {
+                        "items": [],
+                        "type": "check"
+                    },
+                    "fullKey": "tx_mask_buttons_instead",
+                    "key": "buttons_instead",
+                    "type": "check"
+                },
+                "tx_mask_gallery_list": {
+                    "config": {
+                        "fieldControl": {
+                            "linkPopup": {
+                                "options": {
+                                    "blindLinkOptions": "page,file,mail,telephone,luxlinklistener,url"
+                                }
+                            }
+                        },
+                        "renderType": "inputLink",
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_gallery_list",
+                    "key": "gallery_list",
+                    "type": "link"
+                },
+                "tx_mask_info_boxen": {
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "maxitems": "3",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_info_boxen",
+                    "key": "info_boxen",
+                    "type": "inline"
+                },
+                "tx_mask_key_product_2": {
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_2",
+                    "key": "key_product_2",
+                    "type": "inline"
+                },
+                "tx_mask_portfolio_headline": {
+                    "cTypes": [
+                        "header"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "maxitems": "1",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_portfolio_headline",
+                    "key": "portfolio_headline",
+                    "type": "content"
+                },
+                "tx_mask_portfolio_image": {
+                    "cTypes": [
+                        "image"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_portfolio_image",
+                    "key": "portfolio_image",
+                    "type": "content"
+                },
+                "tx_mask_portfolio_search_title": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_portfolio_search_title",
+                    "key": "portfolio_search_title",
+                    "type": "string"
+                },
+                "tx_mask_portfolio_tabs": {
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "expandSingle": 1,
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "maxitems": "3",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_portfolio_tabs",
+                    "key": "portfolio_tabs",
+                    "type": "inline"
+                },
+                "tx_mask_product_tabs": {
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_product_tabs",
+                    "key": "product_tabs",
+                    "type": "inline"
+                },
+                "tx_mask_publications": {
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_publications",
+                    "key": "publications",
+                    "type": "inline"
+                },
+                "tx_mask_tabs": {
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "ctrl": {
+                        "label": "tx_mask_tabs"
+                    },
+                    "fullKey": "tx_mask_tabs",
+                    "key": "tabs",
+                    "type": "inline"
+                },
+                "tx_mask_title": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_title",
+                    "key": "title",
+                    "type": "string"
+                },
+                "tx_mask_worldmap_countries": {
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_worldmap_countries",
+                    "key": "worldmap_countries",
+                    "type": "inline"
+                },
+                "tx_mask_worldmap_image": {
+                    "cTypes": [
+                        "image"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "maxitems": "1",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_worldmap_image",
+                    "key": "worldmap_image",
+                    "type": "content"
+                }
+            }
+        },
+        "tx_mask_adhoc_file": {
+            "sql": {
+                "tx_mask_date": {
+                    "tx_mask_adhoc_file": {
+                        "tx_mask_date": "date"
+                    }
+                },
+                "tx_mask_files": {
+                    "tx_mask_adhoc_file": {
+                        "tx_mask_files": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_titel": {
+                    "tx_mask_adhoc_file": {
+                        "tx_mask_titel": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_date": {
+                    "config": {
+                        "dbType": "date",
+                        "eval": "date",
+                        "renderType": "inputDateTime",
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_date",
+                    "inlineParent": "tx_mask_adhoc_file",
+                    "key": "date",
+                    "label": "PDF Date ",
+                    "order": 2,
+                    "type": "date"
+                },
+                "tx_mask_files": {
+                    "config": {
+                        "appearance": {
+                            "elementBrowserEnabled": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "sort": 0
+                            },
+                            "fileUploadAllowed": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_table": "sys_file_reference",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_files",
+                    "imageoverlayPalette": 0,
+                    "inlineParent": "tx_mask_adhoc_file",
+                    "key": "files",
+                    "label": "PDF Files",
+                    "order": 3,
+                    "type": "file"
+                },
+                "tx_mask_titel": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_titel",
+                    "inlineParent": "tx_mask_adhoc_file",
+                    "key": "titel",
+                    "label": "PDF Titel",
+                    "order": 1,
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_info_boxen": {
+            "sql": {
+                "tx_mask_box_content": {
+                    "tx_mask_info_boxen": {
+                        "tx_mask_box_content": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_box_content": {
+                    "cTypes": [
+                        "text"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "maxitems": "1",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_box_content",
+                    "inlineParent": "tx_mask_info_boxen",
+                    "key": "box_content",
+                    "label": "Box Content",
+                    "order": 1,
+                    "type": "content"
+                }
+            }
+        },
+        "tx_mask_key_product": {
+            "sql": {
+                "tx_mask_key_product_detail_foot": {
+                    "tx_mask_key_product": {
+                        "tx_mask_key_product_detail_foot": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_details": {
+                    "tx_mask_key_product": {
+                        "tx_mask_key_product_details": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_details_list": {
+                    "tx_mask_key_product": {
+                        "tx_mask_key_product_details_list": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_image": {
+                    "tx_mask_key_product": {
+                        "tx_mask_key_product_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_technologies": {
+                    "tx_mask_key_product": {
+                        "tx_mask_key_product_technologies": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_product_name": {
+                    "tx_mask_key_product": {
+                        "tx_mask_product_name": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_key_product_detail_foot": {
+                    "cTypes": [
+                        "text"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_detail_foot",
+                    "inlineParent": "tx_mask_key_product",
+                    "key": "key_product_detail_foot",
+                    "label": "Additional Note",
+                    "order": 5,
+                    "type": "content"
+                },
+                "tx_mask_key_product_details": {
+                    "cTypes": [
+                        "header"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_details",
+                    "inlineParent": "tx_mask_key_product",
+                    "key": "key_product_details",
+                    "label": "Produkt Details",
+                    "order": 3,
+                    "type": "content"
+                },
+                "tx_mask_key_product_details_list": {
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_details_list",
+                    "inlineParent": "tx_mask_key_product",
+                    "key": "key_product_details_list",
+                    "label": "Produkt Detail List",
+                    "order": 4,
+                    "type": "inline"
+                },
+                "tx_mask_key_product_image": {
+                    "cTypes": [
+                        "image",
+                        "html"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_image",
+                    "inlineParent": "tx_mask_key_product",
+                    "key": "key_product_image",
+                    "label": "Produkt Visual",
+                    "order": 2,
+                    "type": "content"
+                },
+                "tx_mask_key_product_technologies": {
+                    "cTypes": [
+                        "textpic"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_technologies",
+                    "inlineParent": "tx_mask_key_product",
+                    "key": "key_product_technologies",
+                    "label": "Produkt Technologies",
+                    "order": 6,
+                    "type": "content"
+                },
+                "tx_mask_product_name": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_product_name",
+                    "inlineParent": "tx_mask_key_product",
+                    "key": "product_name",
+                    "label": "Produkt Name",
+                    "order": 1,
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_key_product_2": {
+            "sql": {
+                "tx_mask_key_product_2_detail_foot": {
+                    "tx_mask_key_product_2": {
+                        "tx_mask_key_product_2_detail_foot": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_2_details": {
+                    "tx_mask_key_product_2": {
+                        "tx_mask_key_product_2_details": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_2_details_list": {
+                    "tx_mask_key_product_2": {
+                        "tx_mask_key_product_2_details_list": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_2_technologies": {
+                    "tx_mask_key_product_2": {
+                        "tx_mask_key_product_2_technologies": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_2_title": {
+                    "tx_mask_key_product_2": {
+                        "tx_mask_key_product_2_title": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_2_visuals": {
+                    "tx_mask_key_product_2": {
+                        "tx_mask_key_product_2_visuals": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_key_product_2_detail_foot": {
+                    "cTypes": [
+                        "text"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_2_detail_foot",
+                    "inlineParent": "tx_mask_key_product_2",
+                    "key": "key_product_2_detail_foot",
+                    "label": "Additional Note",
+                    "order": 5,
+                    "type": "content"
+                },
+                "tx_mask_key_product_2_details": {
+                    "cTypes": [
+                        "header"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_2_details",
+                    "inlineParent": "tx_mask_key_product_2",
+                    "key": "key_product_2_details",
+                    "label": "Product Details",
+                    "order": 3,
+                    "type": "content"
+                },
+                "tx_mask_key_product_2_details_list": {
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_2_details_list",
+                    "inlineParent": "tx_mask_key_product_2",
+                    "key": "key_product_2_details_list",
+                    "label": "Produkt Detail List",
+                    "order": 4,
+                    "type": "inline"
+                },
+                "tx_mask_key_product_2_technologies": {
+                    "cTypes": [
+                        "textpic"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_2_technologies",
+                    "inlineParent": "tx_mask_key_product_2",
+                    "key": "key_product_2_technologies",
+                    "label": "Product Technologies",
+                    "order": 6,
+                    "type": "content"
+                },
+                "tx_mask_key_product_2_title": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_key_product_2_title",
+                    "inlineParent": "tx_mask_key_product_2",
+                    "key": "key_product_2_title",
+                    "label": "Product Title",
+                    "order": 1,
+                    "type": "string"
+                },
+                "tx_mask_key_product_2_visuals": {
+                    "cTypes": [
+                        "image",
+                        "html"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_2_visuals",
+                    "inlineParent": "tx_mask_key_product_2",
+                    "key": "key_product_2_visuals",
+                    "label": "Product Visuals",
+                    "order": 2,
+                    "type": "content"
+                }
+            }
+        },
+        "tx_mask_key_product_2_details_list": {
+            "sql": {
+                "tx_mask_key_product_2_details_image": {
+                    "tx_mask_key_product_2_details_list": {
+                        "tx_mask_key_product_2_details_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_2_details_text": {
+                    "tx_mask_key_product_2_details_list": {
+                        "tx_mask_key_product_2_details_text": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_key_product_2_details_image": {
+                    "config": {
+                        "appearance": {
+                            "elementBrowserEnabled": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "sort": 0
+                            },
+                            "fileUploadAllowed": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_table": "sys_file_reference",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_2_details_image",
+                    "imageoverlayPalette": 1,
+                    "inlineParent": "tx_mask_key_product_2_details_list",
+                    "key": "key_product_2_details_image",
+                    "label": "Produkt Highlight Image",
+                    "order": 2,
+                    "type": "file"
+                },
+                "tx_mask_key_product_2_details_text": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_key_product_2_details_text",
+                    "inlineParent": "tx_mask_key_product_2_details_list",
+                    "key": "key_product_2_details_text",
+                    "label": "Produkt Highlight",
+                    "order": 1,
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_key_product_details_list": {
+            "sql": {
+                "tx_mask_key_product_details_image": {
+                    "tx_mask_key_product_details_list": {
+                        "tx_mask_key_product_details_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_key_product_details_text": {
+                    "tx_mask_key_product_details_list": {
+                        "tx_mask_key_product_details_text": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_key_product_details_image": {
+                    "config": {
+                        "appearance": {
+                            "elementBrowserEnabled": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "sort": 0
+                            },
+                            "fileUploadAllowed": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_table": "sys_file_reference",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product_details_image",
+                    "imageoverlayPalette": 1,
+                    "inlineParent": "tx_mask_key_product_details_list",
+                    "key": "key_product_details_image",
+                    "label": "Produkt Highlight Image",
+                    "order": 2,
+                    "type": "file"
+                },
+                "tx_mask_key_product_details_text": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_key_product_details_text",
+                    "inlineParent": "tx_mask_key_product_details_list",
+                    "key": "key_product_details_text",
+                    "label": "Produkt Highlight",
+                    "order": 1,
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_portfolio_tabs": {
+            "sql": {
+                "tx_mask_portfolio_subnavi": {
+                    "tx_mask_portfolio_tabs": {
+                        "tx_mask_portfolio_subnavi": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_portfolio_tab_content_image": {
+                    "tx_mask_portfolio_tabs": {
+                        "tx_mask_portfolio_tab_content_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_portfolio_tab_content_title": {
+                    "tx_mask_portfolio_tabs": {
+                        "tx_mask_portfolio_tab_content_title": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_portfolio_subnavi": {
+                    "cTypes": [
+                        "menu_subpages"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "maxitems": "1",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_portfolio_subnavi",
+                    "inlineParent": "tx_mask_portfolio_tabs",
+                    "key": "portfolio_subnavi",
+                    "label": "Area Navigation",
+                    "order": 3,
+                    "type": "content"
+                },
+                "tx_mask_portfolio_tab_content_image": {
+                    "cTypes": [
+                        "image"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "maxitems": "1",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_portfolio_tab_content_image",
+                    "inlineParent": "tx_mask_portfolio_tabs",
+                    "key": "portfolio_tab_content_image",
+                    "label": "Image",
+                    "order": 2,
+                    "type": "content"
+                },
+                "tx_mask_portfolio_tab_content_title": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_portfolio_tab_content_title",
+                    "inlineParent": "tx_mask_portfolio_tabs",
+                    "key": "portfolio_tab_content_title",
+                    "label": "Title",
+                    "order": 1,
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_product_tabs": {
+            "sql": {
+                "tx_mask_info_text": {
+                    "tx_mask_product_tabs": {
+                        "tx_mask_info_text": "mediumtext"
+                    }
+                },
+                "tx_mask_key_product": {
+                    "tx_mask_product_tabs": {
+                        "tx_mask_key_product": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_surgical_file": {
+                    "tx_mask_product_tabs": {
+                        "tx_mask_surgical_file": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_tab_image": {
+                    "tx_mask_product_tabs": {
+                        "tx_mask_tab_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_tab_overview_image": {
+                    "tx_mask_product_tabs": {
+                        "tx_mask_tab_overview_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_tab_title": {
+                    "tx_mask_product_tabs": {
+                        "tx_mask_tab_title": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_info_text": {
+                    "config": {
+                        "behaviour": {
+                            "allowLanguageSynchronization": 1
+                        },
+                        "type": "text",
+                        "wrap": "virtual"
+                    },
+                    "fullKey": "tx_mask_info_text",
+                    "inlineParent": "tx_mask_product_tabs",
+                    "key": "info_text",
+                    "label": "Info Text Under Button",
+                    "order": 5,
+                    "type": "text"
+                },
+                "tx_mask_key_product": {
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_key_product",
+                    "inlineParent": "tx_mask_product_tabs",
+                    "key": "key_product",
+                    "label": "Key Products",
+                    "order": 6,
+                    "type": "inline"
+                },
+                "tx_mask_surgical_file": {
+                    "allowedFileExtensions": "pdf",
+                    "config": {
+                        "appearance": {
+                            "elementBrowserEnabled": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "sort": 0
+                            },
+                            "fileUploadAllowed": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_table": "sys_file_reference",
+                        "maxitems": "1",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_surgical_file",
+                    "imageoverlayPalette": 1,
+                    "inlineParent": "tx_mask_product_tabs",
+                    "key": "surgical_file",
+                    "label": "Link to Surgical Technique",
+                    "order": 4,
+                    "type": "file"
+                },
+                "tx_mask_tab_image": {
+                    "cTypes": [
+                        "image"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_tab_image",
+                    "inlineParent": "tx_mask_product_tabs",
+                    "key": "tab_image",
+                    "label": "Tab Background Image",
+                    "order": 2,
+                    "type": "content"
+                },
+                "tx_mask_tab_overview_image": {
+                    "cTypes": [
+                        "image"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_tab_overview_image",
+                    "inlineParent": "tx_mask_product_tabs",
+                    "key": "tab_overview_image",
+                    "label": "Plate Overview Image",
+                    "order": 3,
+                    "type": "content"
+                },
+                "tx_mask_tab_title": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_tab_title",
+                    "inlineParent": "tx_mask_product_tabs",
+                    "key": "tab_title",
+                    "label": "Tab Title",
+                    "order": 1,
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_publications": {
+            "sql": {
+                "tx_mask_publication_title": {
+                    "tx_mask_publications": {
+                        "tx_mask_publication_title": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                },
+                "tx_mask_publication_url": {
+                    "tx_mask_publications": {
+                        "tx_mask_publication_url": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_publication_title": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_publication_title",
+                    "inlineParent": "tx_mask_publications",
+                    "key": "publication_title",
+                    "label": "Publication Title",
+                    "order": 1,
+                    "type": "string"
+                },
+                "tx_mask_publication_url": {
+                    "config": {
+                        "renderType": "inputLink",
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_publication_url",
+                    "inlineParent": "tx_mask_publications",
+                    "key": "publication_url",
+                    "label": "Link To Publication",
+                    "order": 2,
+                    "type": "link"
+                }
+            }
+        },
+        "tx_mask_tabs": {
+            "sql": {
+                "tx_mask_element": {
+                    "tx_mask_tabs": {
+                        "tx_mask_element": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_titel": {
+                    "tx_mask_tabs": {
+                        "tx_mask_titel": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_element": {
+                    "cTypes": [
+                        "textpic",
+                        "1col",
+                        "2cols",
+                        "text",
+                        "image"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_element",
+                    "inlineParent": "tx_mask_tabs",
+                    "key": "element",
+                    "label": "Tab-Inhalt",
+                    "order": 2,
+                    "type": "content"
+                },
+                "tx_mask_titel": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_titel",
+                    "inlineParent": "tx_mask_tabs",
+                    "key": "titel",
+                    "label": "Tab-Titel",
+                    "order": 1,
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_worldmap_countries": {
+            "sql": {
+                "tx_mask_worldmap_country_check": {
+                    "tx_mask_worldmap_countries": {
+                        "tx_mask_worldmap_country_check": "int(11) DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_worldmap_country_id": {
+                    "tx_mask_worldmap_countries": {
+                        "tx_mask_worldmap_country_id": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                },
+                "tx_mask_worldmap_country_image": {
+                    "tx_mask_worldmap_countries": {
+                        "tx_mask_worldmap_country_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_worldmap_country_information": {
+                    "tx_mask_worldmap_countries": {
+                        "tx_mask_worldmap_country_information": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_worldmap_country_name": {
+                    "tx_mask_worldmap_countries": {
+                        "tx_mask_worldmap_country_name": "varchar(255) DEFAULT '' NOT NULL"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_worldmap_country_check": {
+                    "config": {
+                        "items": [
+                            {
+                                "0": "Visible information in frontend",
+                                "iconIdentifierChecked": "visible",
+                                "iconIdentifierUnchecked": "invisible",
+                                "invertStateDisplay": "0"
+                            }
+                        ],
+                        "type": "check"
+                    },
+                    "fullKey": "tx_mask_worldmap_country_check",
+                    "inlineParent": "tx_mask_worldmap_countries",
+                    "key": "worldmap_country_check",
+                    "label": "Visible information in frontend",
+                    "order": 5,
+                    "type": "check"
+                },
+                "tx_mask_worldmap_country_id": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_worldmap_country_id",
+                    "inlineParent": "tx_mask_worldmap_countries",
+                    "key": "worldmap_country_id",
+                    "label": "ISO country",
+                    "order": 2,
+                    "type": "string"
+                },
+                "tx_mask_worldmap_country_image": {
+                    "cTypes": [
+                        "image"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "description": "Company building, etc. ",
+                    "fullKey": "tx_mask_worldmap_country_image",
+                    "inlineParent": "tx_mask_worldmap_countries",
+                    "key": "worldmap_country_image",
+                    "label": "Country Image",
+                    "order": 3,
+                    "type": "content"
+                },
+                "tx_mask_worldmap_country_information": {
+                    "cTypes": [
+                        "text"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
+                            },
+                            "levelLinksPosition": "top",
+                            "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
+                            "showPossibleLocalizationRecords": 1,
+                            "useSortable": 1
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "maxitems": "1",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": 999
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_worldmap_country_information",
+                    "inlineParent": "tx_mask_worldmap_countries",
+                    "key": "worldmap_country_information",
+                    "label": "Company information",
+                    "order": 4,
+                    "type": "content"
+                },
+                "tx_mask_worldmap_country_name": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_worldmap_country_name",
+                    "inlineParent": "tx_mask_worldmap_countries",
+                    "key": "worldmap_country_name",
+                    "label": "Country name",
+                    "order": 1,
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

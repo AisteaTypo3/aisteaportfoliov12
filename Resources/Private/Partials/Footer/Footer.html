@@ -1,0 +1,15 @@
+<div class="copyright">
+    <p>
+        <f:cObject typoscriptObjectPath="lib.copyright" />
+    </p>
+    <f:if condition="{metaNav}">
+        <ul class="metaMenu">
+            <f:for each="{metaNav}" as="item">
+                <li>
+                    <f:link.page pageUid="{item.data.uid}" title="{item.title}" target="{item.target}">{item.title}</f:link.page>
+                </li>
+            </f:for>
+        </ul>
+    </f:if>
+</div>
+

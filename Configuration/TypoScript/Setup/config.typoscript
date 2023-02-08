@@ -1,0 +1,32 @@
+config {
+    spamProtectEmailAddresses = -5
+    #spamProtectEmailAddresses_atSubst = ==at==
+    spamProtectEmailAddresses_lastDotSubst = (.)
+
+    compressCss = 1
+    concatenateCss = 1
+    compressJs = 1
+    concatenateJs = 1
+}
+
+lib.inlineSvg = SVG
+lib.inlineSvg {
+  renderMode = inline
+  src.field = src
+}
+
+lib.siteSelector = TEXT
+lib.siteSelector.typolink.parameter = 47
+
+[siteLanguage("locale") == "en_GB.utf8"]
+lib.siteSelector.value = EN
+lib.siteSelector.typolink.ATagParams = class="siteselector en" title="Link to Language Selection"
+[END]
+[siteLanguage("locale") == "de_DE.utf8"]
+lib.siteSelector.value = DE
+lib.siteSelector.typolink.ATagParams = class="siteselector de" title="Link zur Sprachauswahl"
+[END]
+
+lib.search = TEXT
+lib.search.typolink.parameter = 16
+lib.search.typolink.ATagParams = class="search-icon" title="Link to Search Page"

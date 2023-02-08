@@ -1,0 +1,19 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          finishersDefinition:
+            EmailToReceiver:
+              implementationClassName: TYPO3\CMS\Form\Domain\Finishers\EmailFinisher
+              options:
+                templateName: 'Receiver.html'
+                templateRootPaths:
+                  10: 'EXT:aisteaportfolio/Resources/Private/Extensions/form/Templates/Finishers/Email/'
+      persistenceManager:
+        allowedFileMounts:
+          20: '1:/user_upload/meine_formdefinitionen/'
+        allowSaveToExtensionPaths: true
+        allowDeleteFromExtensionPaths: false
+        allowedExtensionPaths:
+          10: EXT:aisteaportfolio/Resources/Private/FormDefinitions/

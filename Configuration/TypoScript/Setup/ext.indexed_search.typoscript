@@ -1,0 +1,16 @@
+plugin.tx_indexedsearch {
+    view {
+        partialRootPaths.100 = EXT:aisteaportfolio/Resources/Private/Extensions/indexed_search/Partials/
+    }
+    settings {
+        targetPid = {$aisteaportfolio.searchTargetPid}
+        rootPidList = {$aisteaportfolio.searchRootPidList}
+    }
+}
+
+lib.searchField = RECORDS
+lib.searchField {
+    tables = tt_content
+    source = {$aisteaportfolio.searchPluginId}
+    dontCheckPid = 1
+}

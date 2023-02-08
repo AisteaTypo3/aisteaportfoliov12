@@ -1,0 +1,25 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="Main">
+    {f:variable(name: 'css', value: ' {data.tx_aisteacontent_customcssclass}') -> f:if(condition: data.tx_aisteacontent_customcssclass)}
+    <div class="container {css}">
+        <div class="row">
+            <f:if condition="{childrenLeft}">
+                <div class="col-12 col-md-6 col--1">
+                    <f:for each="{childrenLeft}" as="child">
+                        <f:format.raw>{child.renderedContent}</f:format.raw>
+                    </f:for>
+                </div>
+            </f:if>
+            <f:if condition="{childrenRight}">
+                <div class="col-12 col-md-6 col--2">
+                    <f:for each="{childrenRight}" as="child">
+                        <f:format.raw>{child.renderedContent}</f:format.raw>
+                    </f:for>
+                </div>
+            </f:if>
+        </div>
+    </div>
+</f:section>
+
+</html>

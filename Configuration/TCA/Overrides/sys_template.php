@@ -1,18 +1,6 @@
 <?php
-defined('TYPO3') or die('Access denied.');
-call_user_func(function()
-{
-    /**
-     * Temporary variables
-     */
-    $extensionKey = 'aisteaportfolio';
+if (!defined('TYPO3_MODE')) {
+    die('Access denied.');
+}
 
-    /**
-     * Default TypoScript for Aisteaportfolio
-     */
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
-        $extensionKey,
-        'Configuration/TypoScript',
-        'aisteaportfolio'
-    );
-});
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('aisteaportfolio', 'Configuration/TypoScript/', 'TYPO3 11 Extension Template');
