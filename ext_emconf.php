@@ -18,7 +18,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'MedartisAg\\Aisteaportfolio\\' => 'Classes',
+            'Aistea\\Aisteaportfolio\\' => 'Classes',
         ],
     ],
     'state' => 'stable',
