@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<f:layout name="Default" />
+<html lang="en">
+<head></head>
+<body>
+
+<f:section name="body">
+    <a id="top" name="top"></a>
+    <header id="header">
+        <f:cObject  typoscriptObjectPath="lib.dynamicContentSlide" data="{pageUid: '{data.uid}', colPos: '1'}" />
+    </header>
+
+    <!--TYPO3SEARCH_begin-->
+    <main id="content">
+
+        <f:cObject typoscriptObjectPath="lib.dynamicContentSlide" data="{pageUid: '{data.uid}', colPos: '2'}" />
+
+    </main>
+    <!--TYPO3SEARCH_end-->
+    <footer id="footer">
+        <f:cObject typoscriptObjectPath="lib.dynamicContentSlide" data="{pageUid: '{data.uid}', colPos: '3'}" />
+    </footer>
+
+</f:section>
+</body>
+</html>
