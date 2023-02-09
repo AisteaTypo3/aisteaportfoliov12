@@ -7,8 +7,6 @@ body {
     background-color: $primary;
     color: $fontcolor;
 
-    @include fontRegular;
-
     .frame-type-text ul, .frame-type-textpic ul, .tx-mask-products-details ul {
         list-style: none;
         padding-inline-start: 0;
