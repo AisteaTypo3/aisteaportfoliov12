@@ -147,6 +147,7 @@ page {
 
     includeCSS {
         aisteaportfolio_layout = EXT:aisteaportfolio/Resources/Public/Css/layout.min.css
+        custom = EXT:aisteacorp/Resources/Public/Css/merged.css
     }
 
     includeJSLibs {
