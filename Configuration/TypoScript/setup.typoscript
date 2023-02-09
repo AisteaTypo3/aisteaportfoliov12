@@ -9,6 +9,8 @@
 ################
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:aisteaportfolio/Configuration/TypoScript/Helper/DynamicContent.typoscript">
 
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:aisteaportfolio/Configuration/TypoScript/Setup" extensions="txt,typoscript">
+
 
 ##############
 #### PAGE ####

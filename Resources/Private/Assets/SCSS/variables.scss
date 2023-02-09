@@ -1,0 +1,26 @@
+/*
+ *************************************************************************
+ **                               Paths                                 **
+ *************************************************************************
+*/
+$imgPath: '/typo3conf/ext/aisteaportfolio/Resources/Public/Images/';
+$fontPath: '/typo3conf/ext/aisteaportfolio/Resources/Public/WebFonts/';
+$uploadPath: '/fileadmin/user_upload/';
+$uploadPathFlags: '/fileadmin/Flags/';
+$uploadPathIcons: '/fileadmin/Icons/';
+//COLORS
+
+$primary: black;
+$secondary: #292929;
+$highlightcolor: #debe5c;
+
+$news-bg: #38393e;
+
+$fontcolor: white;
+
+$white: white;
+
+
+.small-rte-text {
+  font-size: 12px;
+}
