@@ -1,7 +1,7 @@
 page.includeCSS {
 
-    customercss = EXT:01_sass_compiler.typoscript/Resources/Private/Assets/SCSS/custom.scss
-    customercss.outputfile = EXT:01_sass_compiler.typoscript/Resources/Public/Css/merged.css
+    customercss = EXT:aisteaportfolio/Resources/Private/Assets/SCSS/custom.scss
+    customercss.outputfile = EXT:aisteaportfolio/Resources/Public/Css/merged.css
     customercss.outputStyle = compressed
 
 }
